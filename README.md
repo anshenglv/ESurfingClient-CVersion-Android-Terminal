@@ -8,6 +8,10 @@
 > 
 > ESurfingClient这个文件传到手机的/data/local/tmp/里，可以在比如MT管理器终端运行，获取shell或root权限后输入“/data/local/tmp/ESurfingClient”。第一次运行会报Segmentation fault，按Ctrl+C结束后找到/data/local/tmp/esurfing/ESurfingClient.json，和其他平台一样填写账号等信息，重新运行即可。目前退出程序的逻辑有些问题，同样影响APK版。
 
+**应用运行示例：**
+
+<img alt="Please refresh" src="image/process.jpg" width="320"/> <img alt="Please refresh" src="image/run.jpg" width="400"/>
+
 > [!NOTE]
 > 自行构建需要下载android-ndk-r25c，在CLion添加工具链，并设好对应C和C++编译器路径
 > 
