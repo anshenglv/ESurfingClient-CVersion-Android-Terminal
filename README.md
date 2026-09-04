@@ -1,19 +1,21 @@
-## 手机刷了第三方系统导致广东校园闪退的，还有想开热点或USB网络共享的看过来！
+## 广东校园APP闪退的，和想开热点或USB网络共享的有福了！
 
 > [!IMPORTANT]
-> 当前项目仅能在安卓终端运行，需要图形化的标准应用程序(apk)的请前往[这里](https://github.com/anshenglv/ESurfingClient-CVersion-Android-APK)
+> 当前仓库不打算继续更新了，以后的维护只更新APK的仓库了，链接是下面一行
+> 
+> 当前项目仅能在安卓终端运行，需要图形化的标准安卓应用(apk)的[请前往这里](https://github.com/anshenglv/ESurfingClient-CVersion-Android-APK)
 
 > [!IMPORTANT]
 > 该项目的Releases如何运行：
 > 
-> ESurfingClient这个文件传到手机的/data/local/tmp/里，可以在比如MT管理器终端运行，获取shell或root权限后输入“/data/local/tmp/ESurfingClient”。第一次运行会报Segmentation fault，按Ctrl+C结束后找到/data/local/tmp/esurfing/ESurfingClient.json，和其他平台一样填写账号等信息，重新运行即可。目前退出程序的逻辑有些问题，同样影响APK版。
+> ESurfingClient这个文件传到手机的/data/local/tmp/里，可以在比如MT管理器终端运行，获取shell或root权限后输入“/data/local/tmp/ESurfingClient”。第一次运行会报Segmentation fault，按Ctrl+C结束后找到/data/local/tmp/esurfing/ESurfingClient.json，和其他平台一样填写账号等信息，重新运行即可。目前已知问题是息屏后程序不能长时间保活，同样影响APK版。
 
 **应用运行示例：**
 
 <img alt="Please refresh" src="image/process.jpg" width="320"/> <img alt="Please refresh" src="image/run.jpg" width="400"/>
 
 > [!NOTE]
-> 自行构建需要下载android-ndk-r25c，在CLion添加工具链，并设好对应C和C++编译器路径
+> 自行构建需要下载android-ndk-r25c(其它版本也行)，在CLion添加工具链，并设好对应C和C++编译器路径
 > 
 > C Compiler: [NDK路径]/toolchains/llvm/prebuilt/[你的系统]/bin/clang.exe
 > 
